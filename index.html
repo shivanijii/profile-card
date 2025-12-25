@@ -1,0 +1,219 @@
+<html>
+    <head>
+        <title>shivani profile</title>
+        <link href='https://cdn.boxicons.com/3.0.4/fonts/animations.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' >
+        <style>
+        *{
+            padding:0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        body{
+            height: 500px;
+            /*background-color:#304adad6;*/
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(rgb(105, 255, 150),rgb(209, 170, 245),rgb(185, 80, 159));
+        }
+        .profile-card{
+            max-width: 280px;
+            width: 100%;
+            padding: 45px;
+           /* background-color: #d17f7f;*/
+             background-image: linear-gradient(rgb(236, 155, 135),rgb(197, 66, 169),rgb(224, 129, 129));
+            border-radius: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 5px 15px rgb(52, 11, 70);
+               animation: slideDown 2s ease-in-out; 
+        }
+         @keyframes slideDown{
+            0%{ transform: translateY(-50px); opacity: 0;} 
+            100%{ transform: translateY(0); opacity: 2;} 
+        }
+        
+        .image{
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            background-color: rgb(13, 7, 31);
+            padding: 5px;
+        }
+        .image .profile-img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            border: 3pxsolid#fff;
+            border-radius: 50%;
+        }
+        .profile-card .text-data{
+            display: flex;
+            margin-top: 20px;
+            flex-direction: column;
+            align-items: center;
+            margin-top:8px;
+        }
+        .profile-card .text-data .name{
+            font-size: 32px;
+            /*text-shadow: #e1306c;
+            text-overflow: ellipsis;*/
+        font-weight: 600;
+        margin: 13px 0;
+        color:rgb(10, 8, 22);
+        }
+        .profile-card .text-data .job{
+             font-size: 13px;
+        font-weight: 300;
+        color:rgb(7, 6, 12);
+        }
+        .profile-card .media-button{
+            margin-top: 18px;
+            display: flex;
+            margin: 8px 30px;
+            padding: 0 50px;
+        }
+        .profile-card .media-button  a{
+            background-color:#eee7e7;
+            margin-top: 15px;
+            border-radius: 50%;
+            color:white;
+            text-decoration: none;
+            height: 38px;
+            width: 38px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+            .profile-card .media-button  a i{
+                font-size: 25px;
+            }
+             .profile-card .media-button .icon{
+                padding: 0 10px;
+                margin: 0 7px;
+                font-size: 18px;
+             }
+             .profile-card .button input{
+                padding:0;
+                font-size: 20px;
+             }
+             .profile-card .text {
+                display: flex; gap: 20px;
+             }
+             .profile-card .text {
+                background-color:#fff;
+                color: rgb(83, 12, 12);
+             }
+             .profile-card .ex icon{
+                 padding:  10px;
+                 height: 10px;
+                 font-size: 20px;
+                background-color: #f2eaea;
+                justify-content: center;
+                align-items: center;
+            
+            }
+            .ttt{
+                margin: 0 15px;
+                display: flex;
+                gap: 17px;
+            }
+            .ttt .text{
+                background-color: #ec75c9;
+                border: none;
+                border-radius: 8px;
+                font-size: 16px;
+                padding: 9px;
+                text-align: center;
+                font-weight: 600;
+                color: #080007;
+                transition: background-color 0.3s ease;
+            }
+             .ttt button:hover{
+                background-color: #880e51;
+                
+            }
+            .ttt i{
+                margin-right: 10px;
+                font-size: 32px;
+                vertical-align: middle;
+            }
+            .exn{
+                margin-top: 18px;
+                display: flex;
+                justify-content: space-between;
+                gap: 20px;
+            }
+            .exn a i{
+                font-size: 28px;
+                /*background-color: #f2eaea;
+                padding: 10px;*/
+            }
+            
+</style>
+    </head>
+    <body>
+            <div class="profile-card">
+            <div class="image">
+                <img src="anjali.jpeg" class="profile-img">
+     </div>
+             <div class="text-data">
+                <span class="name">Shivani</span>
+                <span class="job">Data analysis & web Developer</span>
+    </div> 
+              <div class="media-button">
+                <a 
+                style=" background: linear-gradient(45deg, #af51cc, #e47c6a, #833ab4, #c13584, #e1306c, #fd1d1d);"
+                href="https://www.instagram.com/vishwakarmaji75281/" class="icon">
+                <i class='bx bxl-instagram bx-breathe'></i>
+                </a>
+                 <a 
+                 style="background-color:#FF0000"
+                 href="https://www.youtube.com/" class="icon ">
+               <i class='bx bxl-youtube'></i>
+                </a>
+                 <a 
+                 style="background-color: rgb(56, 56, 233);"
+                 href="https://www.linkedin.com/in/shivani-vishwakarma-7b37b3384/" class="icon">
+               <i class='bx bxl-linkedin'></i>
+                </a>
+                  <a 
+                    style="background-color: rgb(184, 181, 10);"
+                    href="https://www.snapchat.com/web/679791d4-8a60-5da9-9fc8-758ca6c2ee91"class="icon">  
+             <i class='bx bxl-snapchat' ></i>
+                </a>
+     </div>
+     <div class="ttt">
+           <i class='bx bxs-hand-right bx-fade-left'></i>
+      <button class="text">follow me</button>
+       
+    </div>
+    <div class="exn">
+        <a
+        style="color: #790a0a;"class="star">
+    <i class='bx bxs-heart  bx-tada-hover'></i>
+    </a>
+    <a
+    style="color:rgb(104, 26, 194)"class="star">
+    <i class='bx bxs-message-rounded-dots  bx-burst-hover'></i>
+    </a>
+    <a
+    style="color:rgb(31, 87, 87)"class="star">
+    <i class='bx bxs-phone-call bx-fade-up-hover'></i>
+    </a>
+    <a
+    style="color:rgb(53, 24, 3)"class="star">
+    <i class='bx bxs-share bx-wiggle-hover'></i>
+    </a>
+    </div>
+    <div class="abc">
+        
+    </div>
+     </div>
+    </body>
+</html>
